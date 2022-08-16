@@ -4,7 +4,7 @@
 }
 
 body {
-  background-color: #ffffff;
+  background-color: #fbf4f4;
   box-sizing: border-box;
   font-family: "IBM Plex Mono", monospace;
   margin: 1px 6px 0px 6px;
@@ -27,7 +27,7 @@ body {
 .navbar {
   width: 100%;
   height: 15%;
-  background-color: #f8f8df;
+  background-color:#eaad7b;
   box-shadow: 5px 5px 1px -1px rgb(0, 0, 0);
   border: 1px solid black;
   border-radius: 10px;
@@ -49,13 +49,13 @@ body {
   padding: 10px;
   margin: 20px;
   color: rgb(23, 60, 59);
-  background-color: #8bd3dd;
+  background-color: #72dbc8;
   box-shadow: 6px 6px 1px -1px rgb(0, 0, 0);
   border: 1px solid black;
   border-radius: 10px;
 }
 .wrapper-navbar li:nth-child(1) {
-  background-color: #d78847;
+  background-color: #dfdf90;
 }
 
 .wrapper-navbar li:hover {
@@ -81,7 +81,7 @@ body {
   box-shadow: 10px 10px 1px -1px rgb(0, 0, 0);
   border: 1px solid black;
   border-radius: 10px;
-  background-color: #d66d6d;
+  background-color: #ed8585;
   color: black;
   display: flex;
   justify-content: space-evenly;
@@ -117,7 +117,7 @@ body {
   height: auto;
   padding: 70px 30px 70px 30px;
   overflow: auto;
-  background-color: #dfdf7d;
+  background-color: #e7e787;
 }
 
 /* ******************SKILL PAGE************************** */
@@ -131,7 +131,7 @@ body {
   display: none;
   width: auto;
   padding: 10px;
-  background-color: #84dc79;
+  background-color: #91ea85;
 }
 
 .skill-page ul {
@@ -151,7 +151,7 @@ body {
   justify-content: center;
   align-items: center;
   gap: 5px;
-  background-color: #da9760;
+  background-color: #e8af81;
   box-shadow: 6px 6px 1px -1px rgb(0, 0, 0);
   border: 1px solid black;
   border-radius: 10px;
@@ -179,7 +179,7 @@ body {
   width: 75%;
   height: auto;
   padding: 70px 40px 70px 40px;
-  background-color: #8b9edd;
+  background-color: #a1b6f8;
 }
 
 .project-page ul {
@@ -222,7 +222,7 @@ body {
   margin: 20px;
   padding: 20px;
   gap: 5px;
-  background-color: #ddc68b;
+  background-color: #eaca78;
   box-shadow: 6px 6px 1px -1px rgb(0, 0, 0);
   border: 1px solid black;
   border-radius: 10px;
@@ -271,20 +271,7 @@ body {
 /****************************************/
 
 @media screen and (max-width: 576px) {
-  * {
-    margin: 0;
-    padding: 0;
-  }
-
-  body {
-    background-color: #ffffff;
-    box-sizing: border-box;
-    font-family: "IBM Plex Mono", monospace;
-    margin: 1px 6px 0px 6px;
-  }
-
   .container {
-    /* position: relative; */
     width: 96vw;
     height: 99vh;
     box-sizing: border-box;
@@ -298,16 +285,6 @@ body {
   /*********************HEAD *********************/
   /************************************************/
 
-  .navbar {
-    width: 100%;
-    height: 15%;
-    background-color: #f8f8df;
-    box-shadow: 5px 5px 1px -1px rgb(0, 0, 0);
-    border: 1px solid black;
-    border-radius: 10px;
-    box-sizing: border-box;
-  }
-
   .wrapper-navbar {
     box-sizing: border-box;
     width: 100%;
@@ -316,18 +293,14 @@ body {
     justify-content: space-evenly;
     align-items: center;
     list-style: none;
-    /* border: 3px solid blue; */
   }
 
   .wrapper-navbar li {
     display: block;
     align-items: center;
-    padding: 10px 3px 10px 3px;
+    padding: 8px 3px 8px 3px;
     margin: 1px;
-    color: rgb(23, 60, 59);
-    background-color: #8bd3dd;
     box-shadow: 4px 4px 1px -1px rgb(0, 0, 0);
-    border: 1px solid black;
     border-radius: 10px;
     font-size: small;
     font-weight: bold;
@@ -336,13 +309,6 @@ body {
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
 }
-  .wrapper-navbar li:nth-child(1) {
-    background-color: #ffbdc4;
-  }
-
-  .wrapper-navbar li:hover {
-    cursor: pointer;
-  }
 
   /************************************************/
   /****************BODY******************/
@@ -350,7 +316,6 @@ body {
 
   .wrapper-content {
     box-sizing: border-box;
-    /* position: relative; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -364,8 +329,6 @@ body {
     box-shadow: 8px 8px 1px -1px rgb(0, 0, 0);
     border: 1px solid black;
     border-radius: 10px;
-    background-color: #d66d6d;
-    color: black;
     display: flex;
     position: absolute;
     justify-content: space-evenly;
