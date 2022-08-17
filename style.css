@@ -315,7 +315,8 @@ body {
 
   .skill-page {
     box-sizing: border-box;
-    width: 90%;
+    width: auto;
+    height: auto;
   }
 
   .skill-page ul li {
@@ -334,7 +335,8 @@ body {
 
   .contact-page {
     box-sizing: border-box;
-    width: 90%;
+    width: auto;
+    height: auto;
   }
 
   .contact-page ul li {
@@ -406,8 +408,11 @@ body {
   .about-page {
     box-shadow: 8px 8px 1px -1px rgb(0, 0, 0);
     border-radius: 10px;
-    position: absolute;
+    margin-top: 10px;
     padding: 30px;
+    max-height: 70%;
+    max-width: 80%;
+    overflow: auto;
   }
 
   /*******************SKILL PAGE***********************/
