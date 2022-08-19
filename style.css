@@ -4,7 +4,7 @@
 }
 
 body {
-  background-color: #fbf4f4;
+  background-color: #cac2b5;
   box-sizing: border-box;
   font-family: "IBM Plex Mono", monospace;
   margin: 1px 6px 0px 6px;
@@ -27,7 +27,7 @@ body {
 .navbar {
   width: 100%;
   height: 15%;
-  background-color: #eaad7b;
+  background-color: #d09573;
   box-shadow: 5px 5px 1px -1px rgb(0, 0, 0);
   border: 1px solid black;
   border-radius: 10px;
@@ -48,14 +48,14 @@ body {
   align-items: center;
   padding: 10px;
   margin: 20px;
-  color: rgb(23, 60, 59);
-  background-color: #72dbc8;
+  color: black;
+  background-color: #e3cec6;
   box-shadow: 6px 6px 1px -1px rgb(0, 0, 0);
   border: 1px solid black;
   border-radius: 10px;
 }
 .wrapper-navbar li:nth-child(1) {
-  background-color: #dfdf90;
+  background-color: #d7aa92;
 }
 
 .wrapper-navbar li:hover {
@@ -81,7 +81,7 @@ body {
   box-shadow: 10px 10px 1px -1px rgb(0, 0, 0);
   border: 1px solid black;
   border-radius: 10px;
-  background-color: #ed8585;
+  background-color: #d7aa92;
   color: black;
   display: flex;
   justify-content: space-evenly;
@@ -96,7 +96,7 @@ body {
 }
 
 .home-page h6 a {
-  color: #052357;
+  color: #354749;
   cursor: pointer;
 }
 
@@ -117,7 +117,7 @@ body {
   height: auto;
   padding: 70px 30px 70px 30px;
   overflow: auto;
-  background-color: #e7e787;
+  background-color: #d7aa92;
 }
 
 /* ******************SKILL PAGE************************** */
@@ -130,7 +130,7 @@ body {
   display: none;
   width: auto;
   padding: 10px;
-  background-color: #91ea85;
+  background-color: #d7aa92;
 }
 
 .skill-page ul {
@@ -150,7 +150,7 @@ body {
   justify-content: center;
   align-items: center;
   gap: 5px;
-  background-color: #e8af81;
+  background-color: #b3856b;
   box-shadow: 6px 6px 1px -1px rgb(0, 0, 0);
   border: 1px solid black;
   border-radius: 10px;
@@ -178,7 +178,7 @@ body {
   width: 75%;
   height: auto;
   padding: 70px 40px 70px 40px;
-  background-color: #a1b6f8;
+  background-color: #d7aa92;
 }
 
 .project-page ul {
@@ -199,7 +199,7 @@ body {
   height: auto;
   display: none;
   padding: 10px;
-  background-color: #d86fd7;
+  background-color: #d7aa92;
 }
 
 .contact-page ul {
@@ -220,7 +220,7 @@ body {
   margin: 20px;
   padding: 20px;
   gap: 5px;
-  background-color: #eaca78;
+  background-color: #b3856b;
   box-shadow: 6px 6px 1px -1px rgb(0, 0, 0);
   border: 1px solid black;
   border-radius: 10px;

@@ -1,7 +1,7 @@
 const liNavBar = document.querySelectorAll(".li-navbar");
 const liBody = document.querySelectorAll(".li-body");
-const bgActive = "#dfdf90";
-const bgNonActive = "#72dbc8";
+const bgActive = "#d7aa92";
+const bgNonActive = "#e3cec6";
 /////////#//////////#////////////#///////////
 /////////#//////////#////////////#///////////
 /////////#/////MANTAB_PAKE_B/////#///////////
