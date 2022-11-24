@@ -1,6 +1,6 @@
 const liNavBar = document.querySelectorAll(".li-navbar");
 const liBody = document.querySelectorAll(".li-body");
-const bgOn= "#d7aa92";
+const bgOn = "#d7aa92";
 const bgOff = "#e3cec6";
 
 const clickButton = (params) => {
@@ -21,4 +21,3 @@ const clickButton = (params) => {
     }
   }
 };
-
