@@ -1,15 +1,13 @@
 const liNavBar = document.querySelectorAll(".li-navbar");
 const liBody = document.querySelectorAll(".li-body");
-const bgOn = "#d7aa92";
-const bgOff = "#e3cec6";
 
 const clickButton = (params) => {
   if (params == params) {
     for (let i = 0; i < liNavBar.length; i++) {
       if (i == params) {
-        liNavBar[i].style.backgroundColor = bgOn;
+        liNavBar[i].style.backgroundColor = "#d7aa92";
       } else {
-        liNavBar[i].style.backgroundColor = bgOff;
+        liNavBar[i].style.backgroundColor = "#e3cec6";
       }
     }
     for (let i = 0; i < liBody.length; i++) {
