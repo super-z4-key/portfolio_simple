@@ -96,8 +96,15 @@ body {
 }
 
 .home-page h6 a {
-  color: #354749;
+  color: white;
   cursor: pointer;
+  background-color: rgb(26, 23, 23);
+  padding: 7px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
 }
 
 .home-page img {
