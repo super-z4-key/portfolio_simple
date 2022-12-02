@@ -1,458 +1,69 @@
 * {
   margin: 0;
   padding: 0;
+  list-style: none;
 }
-
 body {
-  background-color: #cac2b5;
-  box-sizing: border-box;
   font-family: "IBM Plex Mono", monospace;
-  margin: 1px 6px 0px 6px;
+  box-sizing: border-box;
+  margin: 10px 30px;
+  background-color: rgb(241, 241, 241);
 }
-
 .container {
   width: 100%;
-  height: 99vh;
-  box-sizing: border-box;
+  height: auto;
+}
+.header {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
-}
-
-/************************************************/
-/*********************HEAD **********************/
-/************************************************/
-
-.navbar {
-  width: 100%;
-  height: 15%;
-  background-color: #d7aa92;
-  box-shadow: 5px 5px 1px -1px rgb(0, 0, 0);
-  border: 1px solid black;
-  border-radius: 10px;
-  box-sizing: border-box;
-}
-
-.wrapper-navbar {
-  box-sizing: border-box;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  list-style: none;
-}
-
-.wrapper-navbar li {
-  display: block;
-  align-items: center;
-  padding: 10px;
-  margin: 20px;
-  color: black;
-  background-color: #e3cec6;
-  box-shadow: 6px 6px 1px -1px rgb(0, 0, 0);
-  border: 1px solid black;
-  border-radius: 10px;
-}
-.wrapper-navbar li:nth-child(1) {
-  background-color: #d7aa92;
-}
-
-.wrapper-navbar li:hover {
-  cursor: pointer;
-}
-
-/************************************************/
-/**********************BODY**********************/
-/************************************************/
-
-.wrapper-content {
-  box-sizing: border-box;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 85%;
-}
-
-/*******************HOME PAGE********************/
-
-.home-page {
-  box-shadow: 10px 10px 1px -1px rgb(0, 0, 0);
-  border: 1px solid black;
-  border-radius: 10px;
-  background-color: #d7aa92;
-  color: black;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  width: 70%;
-  height: auto;
-}
-
-.home-page > div {
-  margin: 20px;
-  line-height: 30px;
-}
-
-.home-page h6 a {
-  color: white;
-  cursor: pointer;
-  background-color: rgb(26, 23, 23);
-  padding: 7px;
-  border-radius: 5px;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  -ms-border-radius: 5px;
-  -o-border-radius: 5px;
-}
-
-.home-page img {
-  height: 350px;
-  width: auto;
-}
-
-/************************ABOUT PAGE**********************/
-
-.about-page {
-  box-shadow: 10px 10px 1px -1px rgb(0, 0, 0);
-  border: 1px solid black;
-  border-radius: 10px;
-  color: black;
-  display: none;
-  width: 75%;
-  height: auto;
-  padding: 70px 30px 70px 30px;
-  overflow: auto;
-  background-color: #d7aa92;
-}
-
-/* ******************SKILL PAGE************************** */
-
-.skill-page {
-  box-shadow: 10px 10px 1px -1px rgb(0, 0, 0);
-  border: 1px solid black;
-  border-radius: 10px;
-  height: auto;
-  display: none;
-  width: auto;
-  padding: 10px;
-  background-color: #d7aa92;
-}
-
-.skill-page ul {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  list-style: none;
-  padding: 20%;
-}
-
-.skill-page ul li {
-  color: black;
-  margin: 20px;
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 5px;
-  background-color: #b3856b;
-  box-shadow: 6px 6px 1px -1px rgb(0, 0, 0);
-  border: 1px solid black;
-  border-radius: 10px;
-  box-sizing: border-box;
-  width: 70px;
-  height: 70px;
-}
-.skill-page ul li:hover {
-  cursor: pointer;
-}
-
-.skill-page img {
-  width: 35px;
-  height: auto;
-}
-
-/* ******************PROJECT PAGE************************** */
-
-.project-page {
-  box-shadow: 10px 10px 1px -1px rgb(0, 0, 0);
-  border: 1px solid black;
-  border-radius: 10px;
-  color: black;
-  display: none;
-  width: 75%;
-  height: auto;
-  padding: 70px 40px 70px 40px;
-  background-color: #d7aa92;
-}
-
-.project-page ul {
-  margin: 1px 30px;
-}
-
-.project-page ul li {
-  font-size: xx-large;
-}
-
-/* ******************CONTACT PAGE************************** */
-
-.contact-page {
-  box-shadow: 10px 10px 1px -1px rgb(0, 0, 0);
-  border: 1px solid black;
-  border-radius: 10px;
-  width: auto;
-  height: auto;
-  display: none;
-  padding: 10px;
-  background-color: #d7aa92;
-}
-
-.contact-page ul {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  list-style: none;
-  padding: 20%;
-}
-
-.contact-page ul li {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  color: black;
-  margin: 20px;
-  padding: 20px;
-  gap: 5px;
-  background-color: #b3856b;
-  box-shadow: 6px 6px 1px -1px rgb(0, 0, 0);
-  border: 1px solid black;
-  border-radius: 10px;
-  box-sizing: border-box;
-  width: 70px;
-  height: 70px;
-}
-
-.contact-page ul li:hover {
-  cursor: pointer;
-}
-
-.contact-page img {
-  width: 35px;
-  height: auto;
-}
-
-.coba {
-  display: block;
   text-align: center;
-  font-size: 1em;
-  position: absolute;
-  border-radius: 10px;
+  box-sizing: border-box;
+  border-radius: 7px;
   width: 100%;
-  height: 100%;
-  background-color: #2cf31200;
-  text-decoration: none;
+  height: auto;
+  padding: 1rem;
+  margin-top: 1rem;
+  background-color: white;
+  border: 1px solid black;
+  box-shadow: 3px 3px 0px 0px black;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
 }
-/****************************************/
-/****************************************/
-/****************************************/
-/****************************************/
-/****************************************/
-/****************************************/
-/****************************************/
-/****************************************/
-/******************##********************/
-/****************************************/
-/****************************************/
-/****************************************/
-/****************************************/
-/****************************************/
-/****************************************/
-/****************************************/
-/****************************************/
-/****************************************/
-
-@media screen and (max-width: 770px) {
-  .container {
-    width: 96vw;
-    display: flex;
-  }
-
-  /************************************************/
-  /*********************HEAD **********************/
-  /************************************************/
-
-  .wrapper-navbar {
-    width: 100%;
-  }
-
-  .wrapper-navbar li {
-    margin: 15px;
-  }
-
-  /************************************************/
-  /****************BODY****************************/
-  /************************************************/
-
-  /* ***************HOME PAGE**********************/
-
-  .home-page {
-    box-shadow: 8px 8px 1px -1px rgb(0, 0, 0);
-    position: absolute;
-    width: 80%;
-  }
-
-  .home-page > div {
-    margin-right: -6px;
-  }
-
-  /************************ABOUT PAGE**********************/
-
-  .about-page {
-    box-shadow: 8px 8px 1px -1px rgb(0, 0, 0);
-    position: absolute;
-    padding: 30px;
-    overflow: auto;
-  }
-
-  /*******************SKILL PAGE***************************/
-
-  .skill-page {
-    box-sizing: border-box;
-    width: auto;
-    height: auto;
-  }
-
-  .skill-page ul li {
-    margin: 10px;
-  }
-  /* ******************PROJECT PAGE************************** */
-
-  .project-page {
-    padding: 30px;
-  }
-  .project-page ul li {
-    font-size: x-large;
-  }
-
-  /* ******************CONTACT PAGE************************** */
-
-  .contact-page {
-    box-sizing: border-box;
-    width: auto;
-    height: auto;
-  }
-
-  .contact-page ul li {
-    margin: 10px;
-    position: relative;
-    height: auto;
-  }
+.content {
+  width: 100%;
+  height: auto;
 }
-/****************************************/
-/****************************************/
-/****************************************/
-/****************************************/
-/****************************************/
-/****************************************/
-/****************************************/
-/****************************************/
-/******************##********************/
-/****************************************/
-/****************************************/
-/****************************************/
-/****************************************/
-/****************************************/
-/****************************************/
-/****************************************/
-/****************************************/
-/****************************************/
-@media screen and (max-width: 579px) {
-  .container {
-    width: 96.5vw;
-  }
 
-  /************************************************/
-  /*********************HEAD **********************/
-  /************************************************/
-
-  .wrapper-navbar {
-    width: 100%;
-    justify-content: space-evenly;
-    padding-right: 1px;
-  }
-
-  .wrapper-navbar li {
-    padding: 8px 1% 8px 1%;
-    margin: 1%;
-    box-shadow: 5px 5px 1px -1px rgb(0, 0, 0);
-  }
-
-  /************************************************/
-  /**********************BODY**********************/
-  /************************************************/
-
-  /*******************HOME PAGE********************/
-
-  .home-page {
-    box-shadow: 8px 8px 1px -1px rgb(0, 0, 0);
-    position: absolute;
-    width: 80%;
-  }
-
-  .home-page > div {
-    margin: 6%;
-  }
-  .home-page img {
-    display: none;
-  }
-
-  /*********************ABOUT PAGE*********************/
-
-  .about-page {
-    box-shadow: 8px 8px 1px -1px rgb(0, 0, 0);
-    border-radius: 10px;
-    margin-top: 10px;
-    padding: 30px;
-    max-height: 70%;
-    max-width: 80%;
-    overflow: auto;
-  }
-
-  /*******************SKILL PAGE***********************/
-
-  .skill-page {
-    box-sizing: border-box;
-    width: 90%;
-  }
-
-  .skill-page ul li {
-    margin: 10px;
-    box-shadow: 6px 6px 1px -1px rgb(0, 0, 0);
-  }
-
-  /* ******************PROJECT PAGE************************** */
-
-  .project-page {
-    padding: 30px;
-  }
-
-  .project-page ul li {
-    font-size: x-large;
-  }
-
-  /* ******************CONTACT PAGE************************** */
-
-  .contact-page {
-    box-sizing: border-box;
-    width: 90%;
-  }
-
-  .contact-page ul li {
-    margin: 10px;
-    position: relative;
-  }
+.content {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  box-sizing: border-box;
+  width: 100%;
+  height: auto;
+  padding: 1rem 1rem;
+  margin-top: 1rem;
+  border-radius: 7px;
+  font-size: 1.3rem;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid black;
+  box-shadow: 3px 3px 0px 0px black;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+}
+.title-content-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-right: 1rem;
+  margin-right: 1rem;
+  font-size: xx-large;
+  font-weight: 600;
+  border-right: 2px solid black;
 }

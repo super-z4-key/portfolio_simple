@@ -1,0 +1,20 @@
+{
+  "name": "portfolio_simple",
+  "version": "2.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/superrrzzz/portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/superrrzzz/portfolio/issues"
+  },
+  "homepage": "https://github.com/superrrzzz/portfolio#readme"
+}
