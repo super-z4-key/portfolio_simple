@@ -33,11 +33,6 @@ body {
   -o-border-radius: 7px;
 }
 .content {
-  width: 100%;
-  height: auto;
-}
-
-.content {
   display: flex;
   justify-content: start;
   align-items: center;
@@ -66,4 +61,16 @@ body {
   font-size: xx-large;
   font-weight: 600;
   border-right: 2px solid black;
+}
+@media (max-width: 640px) {
+  .content {
+    flex-direction: column;
+  }
+  .title-content-page {
+    flex-direction: row;
+    border-bottom: 2px solid black;
+    border-right: none;
+    padding: 0.5rem 0;
+    margin: 0 0 1rem 0;
+  }
 }
